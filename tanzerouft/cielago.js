@@ -24,7 +24,7 @@ When logic fails, another tool must be used.
 message7 = `
 With a feeling of sadness, Waff realized that she was not, after all, Zensunni.
 The Honored Matre only played word games on the fringes on non-logic, circling it,
-but her tools was logic.
+but her tool was logic.
 `
 message8 = `
 Again, Waff thought, she employed logic in thinking of the non-logical. How much she had
