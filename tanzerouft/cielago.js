@@ -56,12 +56,23 @@ In the old language of the Islamiyat, she said: "It is written."
 message16 = `
 The Bene Gesserit were not powindah!
 `
+message17 = `The Worm twitched.`
+
+message18 = `I'm still not going to breed for you, especially not with that little twit.`
+
+message19 = `There was a man who sat each day looking out through a narrow vertical opening
+where a single board had been removed from a tall wooden fence. Each day a wild ass of the desert
+passed outside the fence and across the narrow opening--first the nose then the head, the forelegs,
+the long brown back, the hindlegs, and lastly the tail. One day, the man leaped to his feet with
+the light of discovery in his eyes and he shouted for all who could hear him: "It is obvious!" The
+nose causes the tail!"
+`
 
 let memories = [
     message1, message2, message3, message4, message5,
     message6, message7, message8, message9, message10,
     message11, message12, message13, message14, message15,
-    message16
+    message16, message17, message18, message19
 ]
 
 const button = document.getElementById('distrans')
