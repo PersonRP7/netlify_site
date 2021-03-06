@@ -17,11 +17,11 @@ body {
     min-height: 500px;
 
     /* Create the parallax scrolling effect */
-    /* background-attachment: fixed; */
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-size: contain; */
 }
 
 .bayanganteks {
@@ -88,10 +88,15 @@ body {
 }
 
 .coffeeColor {
-    color: #664A45;
+    color: #664A45 !important;
+    /* color: #BCAAA4; */
 }
 
 .Lighten {
     /* color: #D7CCC8; */
     background-color: #D7CCC8;
 }
+
+/* #promet_aroma_jumbotron {
+    color: #D7CCC8;
+} */

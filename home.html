@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- /Font Awesome -->
+
+    <!-- Roboto font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- /Roboto font -->
 
-    <!-- Fredoka -->
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <!-- Fredoka font-->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> -->
+    <!-- /Fredoka font -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+        <!-- Bootstrap core CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <!-- /Bootstrap core CSS -->
+    
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <!-- /Material Design Bootstrap -->
+
+    <!--Main CSS-->
     <link rel="stylesheet" href="css/main.css">
+    <!--/Main CSS -->
     <title>Home Page</title>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar">
@@ -99,7 +117,6 @@
     <div id="about"></div>
     <div class="row">
         <div class="col-lg-6 p-5 mx-auto">
-            <!-- <p class='text-gray'>overthinking coffee.</p> -->
 
             <p class="h2 mb-2 roboto coffeeColor"><b>Dobrodošli!</b></p>
 
@@ -107,7 +124,7 @@
             <p class="h5 mb-5 roboto">Za milijune ljudi diljem svijeta, kava je početak dana. Ovdje u Promet Aromi mi Vam želimo dati najbolji početak.</p>
 
 
-            <!-- <p class="text-gray"> If you are looking for a store with wide selection of specialty coffees and many additional products coupled with coffee, we are here at your service! Aromacafe offers a rich variety of coffee beans from all over the world for all caffeine-addicts like us! Visit us to taste this wonderful healing beverage and find something special for you!</p> -->
+           
             <p class="roboto">Ako tražite dućan raznovrsne selekcije Pellini kave, Gaggia aparata za kavu te vrhunski servis, došli ste na pravo mjesto. Obratite nam se s povjerenjem.</p>
 
             <p><a href="#" class="btn btn-warning coffeeColor"> Želim znati više</a></p>
@@ -133,55 +150,126 @@
 
 <div class="parallax"></div>
 
-<!-- Product -->
+<!-- Product grid row -->
 
-<div id="product">
-    <!-- <div class="container-fluid p-5" style="background-color: #D7CCC8;"> -->
-        <div class="container fluid p-5"></div>
-        <!-- <div class="container-fluid p-5 bg-brown.bg-lighten-3"></div> -->
+    <!-- Added mx-auto to center product row with the parallax. -->
+    <div class="mx-auto row mt-4 mb-4" id="product">
 
-        <div class="row p-5">
-            <!-- <div class="col-lg-12 text-center text-white"> -->
-                <div class="col-lg-12 text-center">
-                
-                <h2 class="roboto coffeeColor"><b>Što nudimo</b></h2>
-                
+        <!-- Grid column -->
+            <div class="col-lg-4 col-md-12 mb-4">
+
+                <!-- Card -->
+                    <div class="card">
+
+                        <!-- Card image -->
+                            <div class="view overlay">
+
+                                <img src="/images/pellini_top_450.jpg" class="card-img-top" alt="pellini top">
+
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        <!-- /Card image -->
+
+                        <!-- Card content -->
+                        <div class="card-body">
+                            <!-- Title -->
+                            <h4 class="card-title coffeeColor">Kava</h4>
+                            <!-- /Title -->
+                            <!-- Text -->
+                            <p class="card-text coffeeColor">Široki asortiman izvrsnih Pellini proizvoda. Mljevena,
+                                u zrnu i Nespresso kava.
+                            </p>
+                            <!-- /Text -->
+                            <a href="#" class="btn btn-outline-brown rounded">Više</a>
+                        </div>
+                        <!-- /Card content -->
+
+                    </div>
+                <!-- /Card -->
+
             </div>
+        <!-- /Grid column -->
+
+         <!-- Grid column -->
+         <div class="col-lg-4 col-md-12 mb-4">
+
+            <!-- Card -->
+                <div class="card">
+
+                    <!-- Card image -->
+                        <div class="view overlay">
+
+                            <img src="/images/gaggia1.png" class="card-img-top" alt="pellini top">
+
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                    <!-- /Card image -->
+
+                    <!-- Card content -->
+                    <div class="card-body">
+                        <!-- Title -->
+                        <h4 class="card-title coffeeColor">Aparati</h4>
+                        <!-- /Title -->
+                        <!-- Text -->
+                        <p class="card-text coffeeColor">Automati na kovanice, aparati na kapsule, snack strojevi, vodeni
+                            dispenzeri i aparati za kavu.
+                        </p>
+                        <!-- /Text -->
+                        <a href="#" class="btn btn-outline-brown rounded">Više</a>
+                    </div>
+                    <!-- /Card content -->
+
+                </div>
+            <!-- /Card -->
+
         </div>
-        <div class="card-deck">
-            <div class="card">
-                <!-- <img src="https://www.kimkev.com/demo/coffee/assets/img/8.jpg" class="card-img-top" alt="..."> -->
-                <img src="/images/coffee_beans.png" class="card-img-top" alt="">
-                <div class="card-body text-center">
-                    <!-- <h5 class="card-title" style="color: 664A45;"><b>Kava</b></h5> -->
-                    <!-- <h5 class="card-title" style="color: #664A45;">Kava</h5> -->
-                    <h5 class="card-title coffeeColor">Kava</h5>
-                    <p class="card-text roboto">Široki asortiman izvrsnih Pellini proizvoda. Mljevena, u zrnu i Nespresso kava.</p>
-                    
-                </div>
-            </div>
-            <div class="card">
-                <!-- <img src="https://www.kimkev.com/demo/coffee/assets/img/9.jpg" class="card-img-top" alt="..."> -->
-                <img src="/images/gaggia1.png" alt="">
-                <div class="card-body text-center">
-                    <h5 class=" card-title coffeeColor">Aparati</h5>
-                    <p class="card-text roboto">Automati na kovanice, aparati na kapsule, snack strojevi, vodeni dispenzeri i aparati za kavu.</p>
-                    
-                </div>
-            </div>
-            <div class="card">
-                <img src="/images/service.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class=" card-title coffeeColor">Servis</h5>
-                    <p class="card-text roboto">Servis svih tipova aparata za kavu, kućanskih i profesionalnih. Prodaja rezervnih dijelova.</p>
+    <!-- /Grid column -->
 
+     <!-- Grid column -->
+     <div class="col-lg-4 col-md-12 mb-4">
+
+        <!-- Card -->
+            <div class="card">
+
+                <!-- Card image -->
+                    <div class="view overlay">
+
+                        <img src="/images/service.jpg" class="card-img-top" alt="pellini top">
+
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                <!-- /Card image -->
+
+                <!-- Card content -->
+                <div class="card-body">
+                    <!-- Title -->
+                    <h4 class="card-title coffeeColor">Servis</h4>
+                    <!-- /Title -->
+                    <!-- Text -->
+                    <p class="card-text coffeeColor">
+                        Servis svih tipova aparata za kavu, kućanskih i profesionalnih.
+                  Prodaja rezervnih dijelova.
+                    </p>
+                    <!-- /Text -->
+                    <a href="#" class="btn btn-outline-brown rounded">Više</a>
                 </div>
+                <!-- /Card content -->
+
             </div>
-        </div>
+        <!-- /Card -->
+
     </div>
-</div>
+<!-- /Grid column -->
 
-<!-- Menu -->
+    </div>
+
+<!-- /Product grid row -->
 
 
 
@@ -194,13 +282,17 @@
     <!-- <section class="jumbotron text-center" style="background-color: #D6C1A9;"> -->
         <section class="jumbotron text-center">
         <div class="container mb-5">
-            <h1 class="roboto coffeeColor">Selekcija</h1>
+            <h2 class="roboto coffeeColor">Selekcija</h2>
             <!-- <p class="lead text-muted">
                 Neki od naših najboljih proizvoda<hr>
             </p> -->
 
-            <p class="lead coffeeColor">
+            <!-- <p class="lead coffeeColor">
                 Neki od naših najboljih proizvoda<hr>
+            </p> -->
+
+            <p class="lead coffeeColor">
+                Svi naši proizvodi su odlični, ali ovi su izvrsni!
             </p>
 
         </div>
@@ -210,16 +302,14 @@
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
                     <!-- <img src="https://www.kimkev.com/demo/coffee/assets/img/event1.jpeg" class="img-fluid"> -->
-                    <img src="/images/gaggia_magenta_plus.jpg" class="img-fluid">
+                    <img src="/images/pellini_top_450.jpg" class="img-fluid" alt="pellini top">
                     <div class="card-body">
-                        <p class="card-title coffeeColor roboto"><b>Gaggia Magenta Plus</b></p>
-                        <p class="card-text roboto">Superautomat za kavu</p>
+                        <p class="card-text coffeeColor">Delikatno pržena kava u zrnu.</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Detaljnije</button>
-                              
+                                <button type="button" class="btn btn-outline-brown rounded">Više</button>
+                                <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button> -->
                             </div>
-                            <!-- <small class="text-muted">9 mins</small> -->
                         </div>
                     </div>
                 </div>
@@ -227,16 +317,14 @@
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
                     <!-- <img src="https://www.kimkev.com/demo/coffee/assets/img/event2.jpeg" class="img-fluid"> -->
-                    <img src="/images/pellini_top_450.jpg" class="img-fluid">
+                    <img src="/images/pellini_nespresso_magnifico.jpg" class="img-fluid" alt="pellini nespresso magnifico">
                     <div class="card-body">
-                        <p class="card-title coffeeColor roboto"><b>Pellini Top</b></p>
-                        <p class="card-text roboto">Delikatno pržena kava u zrnu.</p>
+                        <p class="card-text coffeeColor">Pržena mljevena kava u prahu.</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Detaljnije</button>
-                                
+                                <button type="button" class="btn btn-outline-brown rounded">Više</button>
+                                <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button> -->
                             </div>
-                            <!-- <small class="text-muted">9 mins</small> -->
                         </div>
                     </div>
                 </div>
@@ -244,16 +332,14 @@
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
                     <!-- <img src="https://www.kimkev.com/demo/coffee/assets/img/event3.jpeg" class="img-fluid"> -->
-                    <img src="/images/pellini_nespresso_magnifico.jpg" class="img-fluid">
+                    <img src="/images/gaggia_magenta_plus.jpg" alt="Gaggia magenta plus" class="img-fluid">
                     <div class="card-body">
-                        <p class="card-title coffeeColor roboto"><b>Pellini Magnifio</b></p>
-                        <p class="card-text roboto">Kava za kućanske espresso aparate.</p>
+                        <p class="card-text coffeeColor">Profesionalna cijev za paru.</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Detaljnije</button>
-                                
+                                <button type="button" class="btn btn-outline-brown rounded">Više</button>
+                                <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button> -->
                             </div>
-                            <!-- <small class="text-muted">9 mins</small> -->
                         </div>
                     </div>
                 </div>
@@ -270,11 +356,70 @@
    
         <section class="jumbotron text-center">
         <div class="container mb-5">
-            <h1 class="roboto coffeeColor">Footer</h1>
+            <h3 class="roboto coffeeColor">Promet Aroma</h3>
 
-            <p class="lead coffeeColor">
-                ...<hr>
+            <p class="lead coffeeColor roboto">
+                <small>est 1996</small>
+                <hr>
             </p>
+
+            <!-- row -->
+            <div class="row mx-auto row mt-4 mb-4">
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="roboto coffeeColor" style="display: inline-block;">
+                        O Nama
+                        <hr>
+
+                        <p>OIB/VAT: 66564862998</p>
+
+                        <p>IBAN: HR6223600001101491290</p>
+
+                    </div>
+                </div>
+                <!-- /Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="roboto coffeeColor" style="display: inline-block;">
+                        Proizvodi
+                        <hr>
+                        <p>Kava</p>
+                        <p>Strojevi</p>
+                        <p>Kapsule</p>
+                    </div>
+                </div>
+                <!-- /Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="roboto coffeeColor" style="display: inline-block;">
+                        Partneri
+                        <hr>
+                        <p>Gaggia</p>
+                        <p>Pellini</p>
+                    </div>
+                </div>
+                <!-- /Grid column -->
+
+            </div>
+            <!-- /row -->
+
+            <div class="row mx-auto row mt-4 mb-4">
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-12 mb-4 mx-auto">
+                    <div class="roboto coffeeColor" style="display: inline-block;">
+                        Kontakt
+                        <hr>
+                        <!-- <p><i class="fas fa-home mr-3"></i>Druga Zagorska 3, 10000 Zagreb</p> -->
+                        <p><i class="fas fa-home mr-3"></i>Druga Zagorska 3, 10000 Zagreb</p>
+                        <p><i class="fas fa-envelope mr-3"></i>info@prometaroma.hr</p>
+                        <p><i class="fas fa-phone mr-3"></i>01 3695 016</p>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
 
         </div>
 
